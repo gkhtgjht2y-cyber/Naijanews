@@ -1,0 +1,44 @@
+{
+  "processing_completed": "2024-01-15T14:30:00Z",
+  "total_articles_processed": 142,
+  "analytics_summary": {
+    "avg_sentiment": 0.15,
+    "top_sources": [
+      ["BusinessDay Nigeria", 32],
+      ["Nairametrics", 28],
+      ["Premium Times", 25],
+      ["Central Bank of Nigeria", 18],
+      ["The Cable", 15]
+    ],
+    "trending_keywords": [
+      {
+        "keyword": "inflation",
+        "count": 45,
+        "score": 0.32,
+        "weight": 10
+      },
+      {
+        "keyword": "naira",
+        "count": 38,
+        "score": 0.27,
+        "weight": 9
+      },
+      {
+        "keyword": "CBN",
+        "count": 32,
+        "score": 0.23,
+        "weight": 8
+      }
+    ]
+  },
+  "sentiment_distribution": {
+    "positive": 58,
+    "neutral": 65,
+    "negative": 19
+  },
+  "data_quality": {
+    "articles_with_dates": 138,
+    "articles_with_summaries": 126,
+    "articles_with_urls": 142
+  }
+}
