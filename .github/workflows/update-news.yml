@@ -1,0 +1,43 @@
+name: Update Nigerian News
+
+on:
+  schedule:
+    # Run every 3 hours
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install feedparser beautifulsoup4 requests lxml
+    
+    - name: Fetch news
+      run: |
+        python scripts/fetch-news.py
+    
+    - name: Process data
+      run: |
+        python scripts/process-data.py
+    
+    - name: Commit updates
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add api/
+        git commit -m "📰 Update news data [skip ci]" || echo "No changes"
+        git push
