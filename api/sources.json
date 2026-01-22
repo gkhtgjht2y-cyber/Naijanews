@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "name": "BusinessDay Nigeria",
+      "url": "https://businessday.ng/category/business-economy/feed/",
+      "category": "business",
+      "type": "rss",
+      "icon": "building",
+      "description": "Leading Nigerian business newspaper"
+    },
+    {
+      "name": "Nairametrics",
+      "url": "https://nairametrics.com/feed/",
+      "category": "economic_analysis",
+      "type": "rss",
+      "icon": "chart-line",
+      "description": "Economic and financial analysis"
+    },
+    {
+      "name": "Central Bank of Nigeria",
+      "url": "https://www.cbn.gov.ng/rss/cbnnews.asp",
+      "category": "monetary_policy",
+      "type": "rss",
+      "icon": "university",
+      "description": "Official central bank announcements"
+    },
+    {
+      "name": "Premium Times",
+      "url": "https://www.premiumtimesng.com/feed/",
+      "category": "general",
+      "type": "rss",
+      "icon": "newspaper",
+      "description": "Investigative journalism"
+    },
+    {
+      "name": "The Cable",
+      "url": "https://www.thecable.ng/feed",
+      "category": "politics_economy",
+      "type": "rss",
+      "icon": "link",
+      "description": "Politics and economy news"
+    },
+    {
+      "name": "Punch Nigeria",
+      "url": "https://punchng.com/feed/",
+      "category": "general",
+      "type": "rss",
+      "icon": "globe-africa",
+      "description": "General Nigerian news"
+    },
+    {
+      "name": "Guardian Nigeria",
+      "url": "https://guardian.ng/feed/",
+      "category": "business",
+      "type": "rss",
+      "icon": "shield-alt",
+      "description": "Business and political news"
+    }
+  ]
+}

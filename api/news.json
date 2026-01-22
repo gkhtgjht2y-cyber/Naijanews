@@ -1,0 +1,65 @@
+{
+  "last_updated": "2024-01-15T10:30:00Z",
+  "articles": [
+    {
+      "id": 1,
+      "title": "CBN Raises Interest Rate to 18.75% to Combat Inflation",
+      "url": "https://www.cbn.gov.ng/news/123",
+      "summary": "The Central Bank of Nigeria has increased the Monetary Policy Rate by 25 basis points to 18.75% in a bid to tackle rising inflation.",
+      "source": "Central Bank of Nigeria",
+      "category": "monetary_policy",
+      "published_at": "2024-01-15T09:00:00Z",
+      "sentiment": "neutral",
+      "keywords": ["CBN", "interest rate", "inflation", "MPC"],
+      "content": "Full article content would appear here..."
+    },
+    {
+      "id": 2,
+      "title": "Nigeria's Inflation Drops to 21.34% in December",
+      "url": "https://nairametrics.com/inflation-dec-2023",
+      "summary": "The National Bureau of Statistics reports that inflation fell to 21.34% in December 2023, down from 21.47% in November.",
+      "source": "Nairametrics",
+      "category": "economic_analysis",
+      "published_at": "2024-01-15T08:30:00Z",
+      "sentiment": "positive",
+      "keywords": ["inflation", "NBS", "economy", "prices"],
+      "content": "Full article content would appear here..."
+    },
+    {
+      "id": 3,
+      "title": "NNPC Announces $2.5 Billion Oil Revenue for Q4 2023",
+      "url": "https://businessday.ng/nnpc-oil-revenue",
+      "summary": "The Nigerian National Petroleum Corporation reports $2.5 billion in oil revenue for the fourth quarter of 2023.",
+      "source": "BusinessDay",
+      "category": "business",
+      "published_at": "2024-01-14T14:15:00Z",
+      "sentiment": "positive",
+      "keywords": ["NNPC", "oil", "revenue", "petroleum"],
+      "content": "Full article content would appear here..."
+    },
+    {
+      "id": 4,
+      "title": "Naira Exchange Rate Stabilizes at ₦890/$ in Parallel Market",
+      "url": "https://www.premiumtimesng.com/naira-exchange",
+      "summary": "The Nigerian naira has stabilized at around ₦890 to the US dollar in the parallel market following CBN interventions.",
+      "source": "Premium Times",
+      "category": "general",
+      "published_at": "2024-01-14T11:45:00Z",
+      "sentiment": "neutral",
+      "keywords": ["naira", "exchange rate", "forex", "currency"],
+      "content": "Full article content would appear here..."
+    },
+    {
+      "id": 5,
+      "title": "Federal Government Approves ₦5.4 Trillion Budget for 2024",
+      "url": "https://www.thecable.ng/2024-budget",
+      "summary": "The Federal Executive Council has approved a ₦5.4 trillion budget for 2024, focusing on infrastructure and social programs.",
+      "source": "The Cable",
+      "category": "politics_economy",
+      "published_at": "2024-01-13T16:20:00Z",
+      "sentiment": "neutral",
+      "keywords": ["budget", "government", "infrastructure", "spending"],
+      "content": "Full article content would appear here..."
+    }
+  ]
+}
