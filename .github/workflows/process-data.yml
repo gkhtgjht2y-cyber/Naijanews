@@ -1,0 +1,43 @@
+name: Process News Data
+
+on:
+  schedule:
+    # Process data every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Manual trigger
+  push:
+    paths:
+      - 'api/news.json'  # Trigger when news data changes
+
+jobs:
+  process-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install feedparser beautifulsoup4
+    
+    - name: Run data processor
+      run: |
+        python scripts/process-data.py
+    
+    - name: Generate reports
+      run: |
+        python scripts/generate-reports.py
+    
+    - name: Commit processed data
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add api/processed/ reports/
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Process news data & generate reports [skip ci]"
+        git push
